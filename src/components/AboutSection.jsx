@@ -12,13 +12,13 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Passionate Web Developer & PC Builder
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
+              With over 2 years of experience in web development, I specialize
               in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              applications using HTML, CSS, JS, REACT.
             </p>
 
             <p className="text-muted-foreground">
@@ -38,7 +38,7 @@ export const AboutSection = () => {
                 href=""
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Download CV
+                Visit My Facebook Page
               </a>
             </div>
           </div>
@@ -64,10 +64,9 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">PC Building</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    From parts selection to cable management and post-build optimization, I handle every detail with precision.
                   </p>
                 </div>
               </div>
@@ -79,10 +78,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Learning</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    I’m focused on mastering core web development languages like PHP, MYSQL, and JavaScript, exploring backend technologies and real-world project building.
                   </p>
                 </div>
               </div>

@@ -1,35 +1,21 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
+
+  //if you want to add just copy the code and replace the info.
+
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
+    title: "Photographer Portfilio Website",
+    description: "A beautiful Portfilio Website using HTML, CSS and JS.",
+    image: "/projects/site.jpg",
     tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://insidetheframe.pages.dev",
+    githubUrl: "https://github.com",
   },
-  {
-    id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+
+  //add here
+
 ];
 
 export const ProjectsSection = () => {
@@ -99,10 +85,10 @@ export const ProjectsSection = () => {
         <div className="text-center mt-12">
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
-            target="_blank"
-            href="https://github.com/machadop1407"
+            
+            href="#contact"
           >
-            Check My Github <ArrowRight size={16} />
+            Interested? <ArrowRight size={16} />
           </a>
         </div>
       </div>
